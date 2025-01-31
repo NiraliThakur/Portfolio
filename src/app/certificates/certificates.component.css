@@ -1,0 +1,50 @@
+.certifications-section {
+    padding: 24px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+    
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+    
+.certification-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+.certification-card {
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+  
+.certification-card:hover {
+    transform: translateY(-5px);
+}
+    
+.mat-card-image {
+    height: px;
+    padding: 2px;
+}
+    
+.certification-title {
+    font-size: 22px;
+    font-weight: 500;
+    margin:  0;
+}
+    
+.provider, .date {
+    font-size: 0.9rem;
+    color: #555;
+}
+  
+.certification-container a{
+    background-color: #2c3e50;
+    color: #fff;
+}

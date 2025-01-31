@@ -1,0 +1,13 @@
+<section class="certifications-section" id="certificates">
+    <h2>Certifications</h2>
+    <div class="certification-container">
+      <mat-card *ngFor="let certification of certifications" class="certification-card">
+        <mat-card-content>
+          <h3 class="certification-title">{{ certification.title }}</h3>
+          <p class="provider">{{ certification.provider }}</p>
+          <p class="date">{{ certification.date }}</p>
+          <a mat-raised-button color="accent" href="https://drive.google.com/file/d/1eBuQsh30K8x3yTYD4OaVCDXqSxIcLiyw/view?usp=drive_link" target="_blank">📜View Certificate</a>
+        </mat-card-content>
+      </mat-card>
+    </div>
+</section>
