@@ -33,6 +33,7 @@
           },
           "configurations": {
             "production": {
+              "outputPath": "dist/personal-portfolio",
               "baseHref": "/",
 
               "budgets": [
